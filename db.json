@@ -814,13 +814,6 @@
   ],
   "panier": [
     {
-      "id": "f4fs07xh8",
-      "produitId": 8,
-      "quantite": 1,
-      "taille": null,
-      "couleur": null
-    },
-    {
       "produitId": 2,
       "quantite": 1,
       "taille": null,
