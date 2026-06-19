@@ -530,7 +530,7 @@
       "nom": "Ensemble Hermès",
       "description": "L'élégance qui fait toute la différence.",
       "prix": 129,
-      "stock": 45,
+      "stock": 4,
       "image": "/public/images/hermesOrange.jpg",
       "imageDetail": "/public/images/hermesMarron.jpg",
       "icone": "fa-shirt",
