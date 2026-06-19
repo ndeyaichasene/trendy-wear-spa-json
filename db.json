@@ -814,13 +814,6 @@
   ],
   "panier": [
     {
-      "produitId": 2,
-      "quantite": 1,
-      "taille": null,
-      "couleur": null,
-      "id": "iX203Pz3E7U"
-    },
-    {
       "produitId": "7",
       "quantite": 1,
       "taille": "XL",
