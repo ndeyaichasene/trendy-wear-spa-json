@@ -95,6 +95,14 @@
       "motDePasse": "fa",
       "role": "user",
       "id": "Fju_c52kvM0"
+    },
+    {
+      "nom": "Georges gieue",
+      "address": "Dakar senegal",
+      "email": "georgesgueye2204@gmail.com",
+      "motDePasse": "dakar2025",
+      "role": "user",
+      "id": "xFYLP4kr6Ts"
     }
   ],
   "produits": [
