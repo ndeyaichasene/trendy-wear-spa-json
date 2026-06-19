@@ -818,6 +818,13 @@
       "quantite": 1,
       "taille": null,
       "couleur": null
+    },
+    {
+      "produitId": 2,
+      "quantite": 1,
+      "taille": null,
+      "couleur": null,
+      "id": "iX203Pz3E7U"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
