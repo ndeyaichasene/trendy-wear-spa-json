@@ -1,12 +1,10 @@
-
-
 {
   "name": "trendywear-spa",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "json-server db.json --port 3000 --static .",
-    "start": "json-server db.json --port ${PORT:-3000} --host 0.0.0.0 --static . --middlewares middleware.js"
+    "dev": "json-server db.json --port 3000 -s .",
+    "start": "json-server db.json --port ${PORT:-3000} --host 0.0.0.0 -s ."
   },
   "dependencies": {
     "json-server": "^1.0.0-beta.15"
