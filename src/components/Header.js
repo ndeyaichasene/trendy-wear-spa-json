@@ -1,3 +1,6 @@
+import { navigate } from '../router.js';
+import { mettreAJourBadgePanier } from '../cart.js';
+
 export const header = `
 <header class="header aicha">
     <div class="logo">
@@ -27,7 +30,6 @@ export const header = `
         <i class="fa fa-user" id="iconUser"></i>
     </div>
 
-    <!-- Bouton hamburger (mobile) -->
     <button class="burger" id="burgerBtn" aria-label="Menu">
         <span></span>
         <span></span>
@@ -37,6 +39,7 @@ export const header = `
 `;
 
 export function initHeader() {
+    // ── Burger menu ──────────────────────────────────────────────
     const burger = document.getElementById('burgerBtn');
     const navbar = document.getElementById('navbar');
 
@@ -45,13 +48,38 @@ export function initHeader() {
         burger.classList.toggle('active');
     });
 
-    // Ferme le menu quand on clique sur un lien
     navbar?.querySelectorAll('a').forEach(link => {
         link.addEventListener('click', () => {
             navbar.classList.remove('open');
             burger.classList.remove('active');
         });
     });
+
+    // ── Icônes header ─────────────────────────────────────────────
+    document.getElementById('iconUser')?.addEventListener('click', () => {
+        navigate('/Connexion');
+    });
+
+    document.getElementById('iconFavoris')?.addEventListener('click', () => {
+        navigate('/Favoris');
+    });
+
+    document.getElementById('iconPanier')?.addEventListener('click', () => {
+        navigate('/Panier');
+    });
+
+    // ── Recherche en direct ───────────────────────────────────────
+    const searchInput = document.getElementById('searchInput');
+    searchInput?.addEventListener('input', () => {
+        const terme = searchInput.value.trim().toLowerCase();
+        document.querySelectorAll('#app .product').forEach(produit => {
+            const titre = produit.querySelector('.product-title')?.textContent.toLowerCase() || '';
+            produit.style.display = titre.includes(terme) ? '' : 'none';
+        });
+    });
+
+    // ── Badge panier ──────────────────────────────────────────────
+    mettreAJourBadgePanier();
 }
 
 export default header;
