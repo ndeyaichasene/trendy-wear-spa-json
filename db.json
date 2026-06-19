@@ -79,6 +79,22 @@
       "motDePasse": "aly",
       "role": "user",
       "id": "8LQrSOJWbmE"
+    },
+    {
+      "nom": "ada",
+      "address": "ada",
+      "email": "ada",
+      "motDePasse": "ada",
+      "role": "user",
+      "id": "aTAMzobKH2U"
+    },
+    {
+      "nom": "fa",
+      "address": "fa",
+      "email": "fa",
+      "motDePasse": "fa",
+      "role": "user",
+      "id": "Fju_c52kvM0"
     }
   ],
   "produits": [
@@ -514,7 +530,7 @@
       "nom": "Ensemble Hermès",
       "description": "L'élégance qui fait toute la différence.",
       "prix": 129,
-      "stock": 45,
+      "stock": 4,
       "image": "/public/images/hermesOrange.jpg",
       "imageDetail": "/public/images/hermesMarron.jpg",
       "icone": "fa-shirt",
