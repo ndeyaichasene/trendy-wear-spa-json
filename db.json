@@ -79,6 +79,14 @@
       "motDePasse": "aly",
       "role": "user",
       "id": "8LQrSOJWbmE"
+    },
+    {
+      "nom": "ada",
+      "address": "ada",
+      "email": "ada",
+      "motDePasse": "ada",
+      "role": "user",
+      "id": "aTAMzobKH2U"
     }
   ],
   "produits": [
