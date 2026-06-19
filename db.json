@@ -819,6 +819,13 @@
       "taille": "XL",
       "couleur": "Délavé",
       "id": "YymanyJ9YLc"
+    },
+    {
+      "produitId": 3,
+      "quantite": 1,
+      "taille": null,
+      "couleur": null,
+      "id": "K5zH9mcBPEI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
